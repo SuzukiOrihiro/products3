@@ -1,0 +1,54 @@
+.panel-group {
+  margin-bottom: 20px;
+}
+
+.panel-group .panel {
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.panel-group .panel .panel-heading {
+  padding: 20px 20px;
+  background-color: #fff;
+  color: #000000;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+}
+
+.panel-group .panel .panel-heading .panel-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.panel-group .panel .panel-heading .panel-title .txtm {
+  cursor: pointer;
+  display: block;
+  color: #000;
+}
+
+.panel-group .panel .panel-heading .panel-title .txtm.collapsed::after {
+  font-family: "Glyphicons Halflings";
+  content: "\02193";
+  float: right;
+  color: #000;
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.panel-group .panel .panel-heading .panel-title .txtm::after {
+  font-family: "Glyphicons Halflings";
+  font-size: 23px;
+  content: "\02191";
+  float: right;
+  color: #000;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.panel-group .panel .panel-collapse .panel-body {
+  padding: 20px;
+}
+/*# sourceMappingURL=panel-group.css.map */

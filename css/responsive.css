@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+  .txts {
+    font-size: 12px !important;
+    font-weight: 400 !important;
+  }
+  .txtm {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .txtl {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+  }
+  header nav .txtxs {
+    display: none;
+  }
+  .conversion .conversion-in .txtm .conversionbtn {
+    padding: 30px 42px;
+  }
+  .aboutsecond .container .sidebox {
+    padding: 0px;
+  }
+  .teacher .teacherbox {
+    padding: 0 10px;
+  }
+  .answer .row {
+    padding: 20px 10px;
+  }
+  .class .classbox {
+    padding: 20px 10px;
+  }
+  .classlist:last-child {
+    margin-top: 15px;
+  }
+  .flow {
+    padding: 20px 0px;
+  }
+  .flow .flowimg,
+  .flow .flowdetailpc {
+    display: none;
+  }
+  .flow .flowdetailsp {
+    padding: 20px 15px;
+    display: block;
+    text-align: left;
+  }
+  .flow .flowdetailsp img {
+    width: 35px;
+    height: 35px;
+    margin-right: 15px;
+  }
+  .flow .flowdetailsp .panel-group {
+    margin-bottom: 20px;
+  }
+  .flow .flowdetailsp .panel-group .panel-default {
+    border: none;
+  }
+  .flow .flowdetailsp .panel-group .panel-default .flowheading {
+    cursor: pointer;
+    background-color: #fef5e0 !important;
+    color: #000000 !important;
+    border: none !important;
+  }
+  .bangkok {
+    padding: 80px 0px;
+  }
+  .contactform form .OF_center input {
+    padding: 10px 42px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

@@ -67,13 +67,18 @@ header nav .navbar-collapse .nav-item:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   height: 500px;
-  background: linear-gradient(25deg, rgba(243, 236, 219, 0.4), rgba(245, 239, 243, 0.7)), url(/images/img.jpg);
+  background: linear-gradient(
+      25deg,
+      rgba(243, 236, 219, 0.4),
+      rgba(245, 239, 243, 0.7)
+    ),
+    url(images/img.jpg);
   background-size: cover;
 }
 
@@ -122,7 +127,7 @@ header nav .navbar-collapse .nav-item:hover {
 }
 
 .introduction {
-  background-image: url(/images/img01.jpg);
+  background-image: url(images/img01.jpg);
   background-size: cover;
   padding: 40px 0px;
 }
@@ -171,7 +176,13 @@ header nav .navbar-collapse .nav-item:hover {
 
 .introduction .contents p .underline {
   font-weight: bold;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(70%, transparent), color-stop(70%, #ebb94d));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(70%, transparent),
+    color-stop(70%, #ebb94d)
+  );
   background: linear-gradient(transparent 70%, #ebb94d 70%);
   /*(開始位置,開始色,終了色)*/
 }
@@ -247,7 +258,7 @@ header nav .navbar-collapse .nav-item:hover {
 
 .aboutsecond {
   color: #fff;
-  background-image: url(/images/img02.jpg);
+  background-image: url(images/img02.jpg);
   background-size: cover;
   padding: 40px 0px;
   text-align: center;
@@ -271,8 +282,8 @@ header nav .navbar-collapse .nav-item:hover {
   border-radius: 5px;
   width: 32%;
   -webkit-box-flex: 0%;
-      -ms-flex: 0%;
-          flex: 0%;
+  -ms-flex: 0%;
+  flex: 0%;
 }
 
 .aboutsecond .container .sidebox .step {
@@ -371,21 +382,21 @@ header nav .navbar-collapse .nav-item:hover {
 
 .merit .container .row .learnbox .learnfromfreelancer {
   height: 180px;
-  background-image: url(/images/freelancer.jpg);
+  background-image: url(images/freelancer.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .merit .container .row .learnbox .learnpractice {
   height: 180px;
-  background-image: url(/images/learnpractice.jpg);
+  background-image: url(images/learnpractice.jpg);
   background-size: cover;
   background-position: center;
 }
 
 .merit .container .row .learnbox .free {
   height: 180px;
-  background-image: url(/images/free.jpg);
+  background-image: url(images/free.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -413,7 +424,8 @@ header nav .navbar-collapse .nav-item:hover {
 .teacher {
   padding: 40px 0;
   text-align: center;
-  background: linear-gradient(25deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/images/uphill.jpg);
+  background: linear-gradient(25deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(images/uphill.jpg);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -535,8 +547,8 @@ header nav .navbar-collapse .nav-item:hover {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .answer .row .comment small {
@@ -549,7 +561,8 @@ header nav .navbar-collapse .nav-item:hover {
   padding: 40px 0px;
   text-align: center;
   color: #fff;
-  background: linear-gradient(25deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(/images/upupup.jpg);
+  background: linear-gradient(25deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)),
+    url(images/upupup.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -621,7 +634,7 @@ header nav .navbar-collapse .nav-item:hover {
 
 .flow .flowdetailpc .flowbox .flowleft {
   -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   padding: 20px;
   width: 200px;
 }
@@ -641,7 +654,8 @@ header nav .navbar-collapse .nav-item:hover {
 
 .bangkok {
   padding: 80px 80px;
-  background: linear-gradient(25deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url(/images/bangkok.jpg);
+  background: linear-gradient(25deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url(images/bangkok.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -735,7 +749,8 @@ header nav .navbar-collapse .nav-item:hover {
   padding: 40px;
   text-align: center;
   color: #fff;
-  background: linear-gradient(25deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(/images/special.jpg);
+  background: linear-gradient(25deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)),
+    url(images/special.jpg);
   background-size: cover;
   background-position: center;
   line-height: 1.6;
